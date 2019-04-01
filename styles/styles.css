@@ -451,7 +451,7 @@ button#close-modal {
 #form-page .wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 100px 208px 120px 245px;
+  padding: 60px 208px 120px 245px;
   align-items: center;
   background: url("../img/Telescope Vector@3x.png") 5% 100% no-repeat;
   background-size: 197px 207px;
