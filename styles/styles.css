@@ -700,7 +700,7 @@ footer span.end {
   }
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 780px) {
   footer .contact-info {
     flex-wrap: wrap;
   }
@@ -905,5 +905,14 @@ footer span.end {
   #second-page .content-page ul{
     width: 100%;
   }
-
+  .wrapper {
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+  }
+  #home-page .info-block article:first-child h2{
+    width: 100%;
+  }
+  #home-page .img-geometry.geometry-second {
+    left: -30%;
+  }
 }

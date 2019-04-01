@@ -4,13 +4,10 @@ $(document).ready(function () {
     });
     $('.slider-container').slick({
         infinite: true,
-        speed: 300
+        speed: 400,
+        autoplay: true,
+        autoplaySpeed: 3000
     });
 
-    $('#date').DatePicker({
-        flat: true
-
-
-    });
 
 });
