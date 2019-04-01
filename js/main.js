@@ -9,11 +9,11 @@ window.onload = function () {
    close.onclick = function () {
        modal.classList.remove('active');
        document.body.classList.remove('no-scroll');
-   }
+   };
 
-   let formElements = document.forms.namedItem('registration').elements;
-   let calendar = formElements[formElements.length - 1];
-   let data = new Date();
+    let calendar = document.querySelector('input[type="date"]');
+    console.log(calendar);
+    let data = new Date();
    let year = data.getFullYear() - 18;
    let month = data.getMonth() + 1;
    let day = data.getDate();

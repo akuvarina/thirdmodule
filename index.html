@@ -8,8 +8,11 @@
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
   <script type="application/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script type="application/javascript" src="./js/jquery.malihu.PageScroll2id.js"></script>
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./styles/slick.css">
+  <link rel="stylesheet" type="text/css" href="./styles/slick-theme.css">
+  <script src="./js/slick/slick.min.js/"></script>
+  <link rel="stylesheet" media="screen" type="text/css" href="./styles/datepicker.css" />
+  <script type="text/javascript" src="./js/datepicker.js"></script>
   <script type="application/javascript" src="./js/main.js"></script>
   <script type="application/javascript" src="./js/jquery.js"></script>
   <link rel="stylesheet" type="text/css" href="./styles/styles.css">
@@ -26,6 +29,14 @@
         <img src="./img/icon%20phone.svg" alt="phone">
         <span>1300 077 777</span>
       </div>
+      <div class="contact-phone-mobile">
+        <a><img src="./img/icon%20phone.svg" alt="phone"></a>
+        <div class="number gradient-text">
+          <span>Call us today</span>
+          <span>1300 077 777</span>
+        </div>
+      </div>
+
     </header>
     <div class="img-geometry geometry-first">
       <img src="./img/img-geometry_il_1@3x.png" alt="geometry">
@@ -154,7 +165,7 @@ a fitness test.</span>
   <div class="wrapper">
     <div class="plus-container">
       <h2>Plus-1</h2>
-      <p><span>An attractive Plus-1 is allowed ;-)</span>
+      <p><span>An attractive Plus-1 is allowed ;-)</span><br>
         Extending a plus-one is included in the price.
         Your Dog can also be your Plus One.</p>
     </div>
@@ -172,36 +183,48 @@ a fitness test.</span>
         <input id="name" type="text" placeholder="First name & Last name" class="width100">
       </div>
       <div>
-        <label for="email" >Mobile number or email</label>
+        <label for="email">Mobile number or email</label>
         <input id="email" type="email" placeholder="Example: john@gmail.com" class="width100">
       </div>
-
       <div class="third">
         <div>
           <label>DATE OF BIRTH
           </label>
-          <input type="date" min="1920-01-01">
+          <input id="date" type="date" min="1920-01-01" placeholder="..">
         </div>
         <div>
           <span>Gender</span>
           <input type="radio" id="male">
-          <label cfor="male" class="inline">Male</label>
-          <input type="radio" id="female" >
-          <label for="female" class="inline">Feale</label>
+          <label for="male" class="inline">Male</label>
+          <input type="radio" id="female">
+          <label for="female" class="inline">Female</label>
         </div>
-
       </div>
       <button type="submit">Start now</button>
     </form>
   </div>
 </section>
-<section>
-
-</section>
 <footer>
+  <div class="wrapper">
+    <div  class="logo">
+      <img src="./img/Logo%20Footer.svg" alt="logo">
+    </div>
+    <div class="contact-info">
+      <span>contact@2space.com</span>
+      <a>Privacy Police</a>
+      <a>Get Full Guide</a>
 
+      <div class="social-networks">
+        <span>Follow us</span>
+        <a><img src="./img/social-facebook.svg" alt="soc"></a>
+        <a><img src="./img/social-instagram.svg" alt="soc"></a>
+        <a><img src="./img/social-twitter.svg" alt="soc"></a>
+        <a><img src="./img/social-youtube.svg" alt="soc"></a>
+      </div>
+    </div>
+    <span class="end">2019 2SPACE. All rights reserved.</span>
+  </div>
 </footer>
-
 
 </body>
 </html>

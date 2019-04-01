@@ -5,5 +5,12 @@ $(document).ready(function () {
     $('.slider-container').slick({
         infinite: true,
         speed: 300
-    })
+    });
+
+    $('#date').DatePicker({
+        flat: true
+
+
+    });
+
 });
