@@ -7,6 +7,7 @@
   <link rel="icon" type="image/x-icon" href="./img/Penguin_4.ico">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
   <script type="application/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="application/javascript" src="./js/jquery.malihu.PageScroll2id.js"></script>
   <link rel="stylesheet" type="text/css" href="./styles/slick.css">
   <link rel="stylesheet" type="text/css" href="./styles/slick-theme.css">
@@ -32,13 +33,24 @@
         <img src="./img/icon%20phone.svg" alt="phone">
         <span>1300 077 777</span>
       </div>
-      <div class="contact-phone-mobile">
-        <a><img src="./img/icon%20phone.svg" alt="phone"></a>
-        <div class="number gradient-text">
-          <span>Call us today</span>
-          <span>1300 077 777</span>
-        </div>
+      <nav class>
+        <a href="#home-page" rel="m_PageScroll2id">Home</a>
+        <a href="#second-page" rel="m_PageScroll2id">Programme</a>
+        <a href="#third-page" rel="m_PageScroll2id">About</a>
+        <a href="#form-page" rel="m_PageScroll2id">Get Started</a>
+      </nav>
+      <div class="mobile-navigation">
+        <a class="burger-icon">
+          <img src="./img/iconfinder-icon%20(3).svg" alt="icon">
+        </a>
+        <nav class="mobile">
+          <a href="#home-page" rel="m_PageScroll2id">Home</a>
+          <a href="#second-page" rel="m_PageScroll2id">Programme</a>
+          <a href="#third-page" rel="m_PageScroll2id">About</a>
+          <a href="#form-page" rel="m_PageScroll2id">Get Started</a>
+        </nav>
       </div>
+
 
     </header>
     <div class="img-geometry geometry-first">
@@ -97,11 +109,11 @@
 <section id="second-page">
   <div class="wrapper">
     <div class="img-astronaut">
-      <img src="./img/img-austronaut@3x.png" alt="astronaut">
+      <img src="./img/austronaut.png" alt="astronaut">
     </div>
     <div class="content-page">
-      <h2>Programme</h2>
-      <ul>
+
+      <ul> <h2>Programme</h2>
         <li>
           <h3>30 MINUTE</h3>
           space flight at 20% of light speed.
@@ -209,13 +221,23 @@ a fitness test.</span>
 </section>
 <footer>
   <div class="wrapper">
-    <div  class="logo">
-      <img src="./img/Logo%20Footer.svg" alt="logo">
+    <div class="row-contact">
+      <div  class="logo">
+        <img src="./img/Logo%20Footer.svg" alt="logo">
+
+      </div>
+      <div class="contact-phone">
+        <span>Call us today</span>
+        <img src="./img/icon%20phone.svg" alt="phone">
+        <span>1300 077 777</span>
+      </div>
     </div>
     <div class="contact-info">
-      <span>contact@2space.com</span>
-      <a>Privacy Police</a>
-      <a>Get Full Guide</a>
+      <div class="row-link">
+        <span>contact@2space.com</span>
+        <a>Privacy Police</a>
+        <a>Get Full Guide</a>
+      </div>
 
       <div class="social-networks">
         <span>Follow us</span>
@@ -225,9 +247,12 @@ a fitness test.</span>
         <a><img src="./img/social-youtube.svg" alt="soc"></a>
       </div>
     </div>
+
     <span class="end">2019 2SPACE. All rights reserved.</span>
   </div>
 </footer>
+<a href="#home-page" class="scrollup">
 
+</a>
 </body>
 </html>
