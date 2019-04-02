@@ -109,6 +109,7 @@ body {
 #home-page header .logo {
   width: 166px;
   height: 44px;
+  padding-top: 7px;
 }
 
 .contact-phone,#home-page header nav {
