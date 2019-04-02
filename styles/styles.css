@@ -592,6 +592,7 @@ footer .contact-phone{
 .scrollup{
   width: 50px;
   height: 60px;
+  opacity: 0.8;
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -600,7 +601,9 @@ footer .contact-phone{
   background: url(../img/iconfinder4.svg) no-repeat;
   background-size: 100%;
 }
-
+.scrollup:hover{
+  opacity: 1;
+}
 @media screen and (min-width: 1470px) {
   .wrapper {
     width: 1400px;
@@ -953,7 +956,8 @@ footer .contact-phone{
     right: 0;
   }
   #fourth-page .plus-container p{
-    padding-top: 140px;
+    padding-top: 150px;
+    font-size: 13px;
   }
   #fourth-page .wrapper {
     background: url(../img/Plus-1-Dog@3x.png) center 100px no-repeat;
