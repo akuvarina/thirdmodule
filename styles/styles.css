@@ -112,24 +112,28 @@ body {
   padding-top: 7px;
 }
 
-.contact-phone,#home-page header nav {
+.contact-phone, #home-page header nav {
   padding-top: 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-#home-page header .contact-phone{
+
+#home-page header .contact-phone {
   width: 280px;
 }
-#home-page header nav{
+
+#home-page header nav {
   width: 35%;
 }
-#home-page header nav a:hover{
+
+#home-page header nav a:hover {
   background: linear-gradient(to right, #fe86aa, #00ffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: table;
 }
+
 #home-page header .contact-phone img {
   width: 25px;
   height: 25px;
@@ -138,6 +142,7 @@ body {
 #home-page header .mobile-navigation {
   display: none;
 }
+
 #home-page .name-page {
   padding: 134px 0 50px 25%;
   text-align: left;
@@ -303,9 +308,11 @@ button#close-modal {
   letter-spacing: 0.3px;
   margin-bottom: 60px;
 }
-#second-page .content-page ul li{
+
+#second-page .content-page ul li {
   margin-bottom: 24px;
 }
+
 #second-page form {
   position: relative;
 }
@@ -540,16 +547,19 @@ footer .wrapper {
   flex-wrap: wrap;
   color: #c4c4c4;
 }
-footer .wrapper .row-contact{
+
+footer .wrapper .row-contact {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 24px;
 }
-footer .contact-phone{
+
+footer .contact-phone {
   padding-top: 0;
 }
+
 footer .logo {
   width: 98px;
 }
@@ -561,11 +571,13 @@ footer .contact-info {
   align-items: center;
   width: 100%;
 }
-footer .contact-info .row-link{
+
+footer .contact-info .row-link {
   width: 50%;
   display: flex;
   justify-content: space-between;
 }
+
 footer .contact-info a {
   color: #c4c4c4;
 }
@@ -587,11 +599,12 @@ footer span.end {
   color: #909090;
   width: 100%;
 }
-footer .contact-phone{
+
+footer .contact-phone {
   display: none;
 }
 
-.scrollup{
+.scrollup {
   width: 50px;
   height: 60px;
   opacity: 0.8;
@@ -603,9 +616,11 @@ footer .contact-phone{
   background: url(../img/iconfinder4.svg) no-repeat;
   background-size: 100%;
 }
-.scrollup:hover{
+
+.scrollup:hover {
   opacity: 1;
 }
+
 @media screen and (min-width: 1470px) {
   .wrapper {
     width: 1400px;
@@ -620,9 +635,11 @@ footer .contact-phone{
   #second-page .content-page {
     margin-left: 8%;
   }
-  #home-page header nav{
+
+  #home-page header nav {
     width: 40%;
   }
+
   #home-page header .contact-phone {
     width: 30%;
   }
@@ -648,16 +665,19 @@ footer .contact-phone{
 }
 
 @media screen and (max-width: 1100px) {
-  #home-page header .contact-phone{
+  #home-page header .contact-phone {
     display: none;
   }
-  #home-page header nav{
+
+  #home-page header nav {
     width: 60%;
   }
-  footer .contact-phone{
+
+  footer .contact-phone {
     display: flex;
     width: 30%;
   }
+
   #second-page form input {
     width: 328px;
     margin-bottom: 12px;
@@ -706,12 +726,12 @@ footer .contact-phone{
   #form-page .wrapper h2 {
     text-align: center;
     width: 70%;
+  }
+
+  #form-page .wrapper form, #form-page .wrapper h2 {
     margin: 20px auto;
   }
 
-  #form-page .wrapper form {
-    margin: 20px auto;
-  }
   footer .contact-info .row-link {
     width: 60%;
   }
@@ -728,6 +748,29 @@ footer .contact-phone{
     top: 42%;
   }
 
+  #second-page .content-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  #second-page .content-page ul{
+    margin-bottom: 0;
+  }
+
+  #second-page form {
+    width: 50%;
+    top: -24px;
+  }
+
+  #second-page form label {
+    margin-right: 0;
+  }
+
+  #second-page form input, button.black-btn, button.black-btn:active{
+    width: 100%;
+  }
+
   #third-page .wrapper .container-page {
     display: none;
   }
@@ -737,38 +780,43 @@ footer .contact-phone{
     width: 200px;
   }
 
-  footer .contact-info .social-networks,footer .contact-phone {
+  footer .contact-info .social-networks, footer .contact-phone {
     width: 35%;
   }
 }
 
 @media screen and (max-width: 860px) {
-  #home-page .name-page {
-    padding-left: 15%;
-  }
-  #fourth-page .plus-container {
-    width: 53%;
-  }
-
   .wrapper {
     padding-right: 50px !important;
     padding-left: 50px !important;
   }
-  footer .contact-info .social-networks span{
+
+  #home-page .name-page {
+    padding-left: 15%;
+  }
+
+  #fourth-page .plus-container {
+    width: 53%;
+  }
+
+  footer .contact-info .social-networks span {
     display: none;
   }
+
   footer .contact-info .row-link {
     flex-direction: column;
   }
-  footer .contact-info .row-link *{
+
+  footer .contact-info .row-link * {
     margin-bottom: 12px;
   }
 }
 
 @media screen and (max-width: 780px) {
-  #home-page header nav{
+  #home-page header nav {
     width: 65%;
   }
+
   #home-page .name-page {
     padding-left: 10%;
   }
@@ -782,19 +830,19 @@ footer .contact-phone{
     font-size: 72px;
   }
 
-  #second-page form label {
-    margin-right: 0;
-  }
   #fourth-page .wrapper {
     background-size: 45%;
   }
-  #form-page form .third{
+
+  #form-page form .third {
     margin-bottom: 70px;
   }
+
   footer .contact-info .social-networks, footer .contact-phone {
     width: 45%;
   }
-  footer .contact-info .social-networks > span{
+
+  footer .contact-info .social-networks > span {
     display: none;
   }
 }
@@ -803,7 +851,8 @@ footer .contact-phone{
   #home-page header .logo {
     width: 130px;
   }
-  #home-page header nav{
+
+  #home-page header nav, #second-page .img-astronaut  {
     display: none;
   }
 
@@ -811,18 +860,21 @@ footer .contact-phone{
     display: block;
     position: relative;
   }
-  #home-page header .mobile-navigation .burger-icon img{
+
+  #home-page header .mobile-navigation .burger-icon img {
     width: 50px;
   }
+
   #home-page header .mobile-navigation:hover > .burger-icon, nav.mobile {
     opacity: 0.7;
   }
+
   #home-page header .mobile-navigation:hover > nav.mobile {
     display: flex;
     flex-direction: column;
     position: absolute;
     right: 5px;
-    top:50px;
+    top: 50px;
     text-align: right;
     z-index: 10000;
     align-items: flex-end;
@@ -830,22 +882,19 @@ footer .contact-phone{
     padding-right: 5px;
     border-right: 2px solid #ffffff;
   }
-  nav.mobile a{
+
+  nav.mobile a {
     margin-bottom: 10px;
     text-decoration: underline;
   }
+
   #home-page .name-page {
     padding-left: 12px;
   }
 
-
   #home-page .send-request {
     margin-left: 25%;
     width: 70%;
-  }
-
-  #home-page .info-block article:last-child {
-    margin-left: 25%;
   }
 
   #home-page .info-block {
@@ -861,31 +910,22 @@ footer .contact-phone{
     margin-left: 0;
   }
 
-  #second-page .img-astronaut {
-    display: none;
-  }
-
   #second-page .content-page {
     margin: 0 auto;
     width: 60%;
+    flex-wrap: wrap;
   }
-
-  #form-page .wrapper form {
-    width: 100%;
-
+  #second-page .content-page form{
+    top: 0;
   }
-
-  #form-page .wrapper form div {
-    width: 90%;
-  }
-
-  #form-page form input.width100 {
+  #second-page .content-page form, #form-page .wrapper form, #form-page form input.width100 {
     width: 100%;
   }
 
-  #form-page form button {
+  #form-page .wrapper form div, #form-page form button {
     width: 90%;
   }
+
   #form-page .wrapper {
     background-size: 20%;
   }
@@ -896,16 +936,18 @@ footer .contact-phone{
 }
 
 @media screen and (max-width: 550px) {
-  body{
+  body {
     font-size: 14px;
   }
-  button, button:hover, button:active,button.black-btn:active, #second-page form input {
+
+  button, button:hover, button:active, #form-page .wrapper h2 {
     width: 100%;
   }
 
   h2 {
     font-size: 36px;
   }
+
   .wrapper {
     padding-right: 25px !important;
     padding-left: 25px !important;
@@ -914,15 +956,15 @@ footer .contact-phone{
   #home-page .name-page {
     padding-left: 5%;
   }
+
   #second-page .content-page {
     width: 80%;
   }
-  #form-page .wrapper h2 {
-    width: 100%;
-  }
+
   #form-page .wrapper {
     background-size: 25%;
   }
+
   footer .contact-info .social-networks {
     width: 70%;
   }
@@ -933,72 +975,88 @@ footer .contact-phone{
     font-size: 32px;
     margin-bottom: 24px;
   }
+
   #home-page .name-page * {
     font-size: 60px;
   }
+
   #home-page .img-geometry.geometry-second {
     left: -20%;
   }
+
   #form-page form .third {
     flex-direction: column;
   }
-  #form-page form span{
+
+  #form-page form span {
     margin-bottom: 6px;
   }
-  #fourth-page .plus-container{
+
+  #fourth-page .plus-container {
     width: 90%;
     margin: 0 auto;
     position: relative;
     padding: 150px 0 46px 0;
   }
-  #fourth-page .plus-container h2{
+
+  #fourth-page .plus-container h2 {
     position: absolute;
     top: 60px;
     left: 0;
     right: 0;
   }
-  #fourth-page .plus-container p{
+
+  #fourth-page .plus-container p {
     padding-top: 150px;
     font-size: 13px;
   }
+
   #fourth-page .wrapper {
     background: url(../img/Plus-1-Dog@3x.png) center 100px no-repeat;
     background-size: 200px;
   }
-  .slick-prev, .slick-next,.slick-prev:hover, .slick-next:hover{
+
+  .slick-prev, .slick-next, .slick-prev:hover, .slick-next:hover {
     width: 30px;
   }
-  .slick-prev{
+
+  .slick-prev {
     left: -60px;
   }
-  .slick-next{
+
+  .slick-next {
     right: -50px;
   }
+
   #second-page .content-page {
     width: 90%;
   }
-  #second-page .content-page ul{
+
+  #second-page .content-page ul {
     width: 100%;
   }
+
   .wrapper {
     padding-right: 12px !important;
   }
-  #home-page .info-block article:first-child h2{
+
+  #home-page .info-block article:first-child h2, footer .contact-phone {
     width: 80%;
   }
+
   #home-page .img-geometry.geometry-second {
     left: -30%;
   }
-  footer .wrapper .row-contact,footer .contact-info{
+
+  footer .wrapper .row-contact, footer .contact-info {
     flex-wrap: wrap;
   }
-  footer .contact-phone {
-    width: 80%;
-  }
-  footer span.end{
+
+  footer span.end {
     text-align: left;
   }
-  footer .wrapper .row-contact, footer .wrapper .row-contact img,footer .contact-info .row-link, footer .contact-info {
+
+  footer .wrapper .row-contact, footer .wrapper .row-contact img, footer .contact-info .row-link, footer .contact-info {
     margin-bottom: 12px;
   }
 }
