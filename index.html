@@ -33,7 +33,7 @@
         <img src="./img/icon%20phone.svg" alt="phone">
         <span>1300 077 777</span>
       </div>
-      <nav class>
+      <nav>
         <a href="#home-page" rel="m_PageScroll2id">Home</a>
         <a href="#second-page" rel="m_PageScroll2id">Programme</a>
         <a href="#third-page" rel="m_PageScroll2id">About</a>
@@ -50,9 +50,8 @@
           <a href="#form-page" rel="m_PageScroll2id">Get Started</a>
         </nav>
       </div>
-
-
     </header>
+
     <div class="img-geometry geometry-first">
       <img src="./img/img-geometry_il_1@3x.png" alt="geometry">
     </div>
@@ -62,9 +61,11 @@
     </div>
     <div class="send-request">
       <h2>Would like to go into space?</h2>
-      <button class="show-modal">
+      <button class="show-modal submit-btn">
         Get full Guide
       </button>
+
+      <div class="modal-backup"></div>
       <div id="modal-block">
         <div class="modal-body">
           <h3>Call back</h3>
@@ -76,11 +77,12 @@
             <label>
               <input type="text" placeholder="Your phone">
             </label>
-            <button data-close>Send</button>
+            <button class="submit-btn" data-close>Send</button>
           </form>
         </div>
       </div>
     </div>
+
     <div class="info-block">
       <article>
         <h2>Where from
@@ -93,6 +95,7 @@
           and orbits the Earth at a height of 400Km.
         </p>
       </article>
+
       <article>
         <h2>What to expect</h2>
         <p>
@@ -139,7 +142,7 @@
         <label>
           <input type="email" placeholder="Enter your email address">
         </label>
-        <button type="submit" class="black-btn">Get Full Guide</button>
+        <button type="submit" class="submit-btn black-btn">Get Full Guide</button>
       </form>
     </div>
   </div>
@@ -218,7 +221,7 @@ a fitness test.</span>
           <label for="female" class="inline">Female</label>
         </div>
       </div>
-      <button type="submit">Start now</button>
+      <button class="submit-btn" type="submit">Start now</button>
     </form>
   </div>
 </section>

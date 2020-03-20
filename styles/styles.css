@@ -51,6 +51,10 @@ ul {
   padding: 0;
 }
 
+input, input:focus {
+  outline: none;
+}
+
 button, button:active, button.black-btn:active {
   width: 328px;
   height: 65px;
@@ -62,9 +66,17 @@ button, button:active, button.black-btn:active {
   background-image: linear-gradient(to left, #00ffff, #fe86aa);
 }
 
+.submit-btn {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s
+}
+
 button:hover, button.black-btn:hover {
   background: #ffffff;
   color: #000000;
+  border: 2px solid transparent;
 }
 
 button.black-btn {
@@ -223,11 +235,12 @@ body {
   position: absolute;
   z-index: 999;
   width: 70%;
-  background: #dce9ff;
+  background: #292929;
   left: 0;
   right: 0;
-  top: 25%;
+  top: 10%;
   margin: auto;
+  box-shadow: 5px 5px 10px rgba( 255,255,255,0.2);
 }
 
 .modal-body {
@@ -243,13 +256,35 @@ body {
   text-align: center;
 }
 
-button#close-modal {
+#close-modal {
   width: 50px;
   margin-left: 150px;
   background: transparent;
   position: absolute;
   right: 5px;
-  top: -20px;
+  top: -40px;
+  color: #b90d0b;
+  transition: all 0.5s;
+  border: none;
+}
+
+#close-modal:hover {
+  color: #ff1719;
+  transform: scale(1.2);
+}
+
+.modal-backup {
+  background: rgba(255, 255, 255, 0);
+  transition: all 0.5s;
+}
+
+.modal-backup--active {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.25);
 }
 
 .modal-body form {
@@ -267,10 +302,6 @@ button#close-modal {
 
 .modal-body form input {
   padding: 12px;
-}
-
-.modal-body form button {
-  opacity: 0.6;
 }
 
 .active {
@@ -512,6 +543,12 @@ button#close-modal {
 
 #form-page form input.width100, #form-page form button {
   width: 459px;
+  transition: all 0.5s;
+}
+
+#form-page form input:focus {
+  background: transparent;
+  color: #fff;
 }
 
 #form-page form .third {
@@ -589,8 +626,13 @@ footer .contact-info .social-networks {
   width: 30%;
 }
 
+footer .contact-info .social-networks a {
+  transition: all 0.5s;
+}
+
 footer .contact-info .social-networks a:hover {
-  opacity: 0.8;
+  opacity: 0.6;
+  transform: scale(1.1);
 }
 
 footer span.end {
@@ -607,7 +649,7 @@ footer .contact-phone {
 .scrollup {
   width: 50px;
   height: 60px;
-  opacity: 0.8;
+  opacity: 0.6;
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -615,10 +657,12 @@ footer .contact-phone {
   text-indent: -9999px;
   background: url(../img/iconfinder4.svg) no-repeat;
   background-size: 100%;
+  transition: all 0.5s;
 }
 
 .scrollup:hover {
   opacity: 1;
+  transform: scale(1.1);
 }
 
 @media screen and (min-width: 1470px) {
